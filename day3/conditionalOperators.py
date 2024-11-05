@@ -10,5 +10,7 @@ if height >= 120:
         print("Please pay $7.")
     else:
         print("Please pay $12.")
+        
+        wants_photo = input("Do you want to have a photo take? Type y for Yes and n for No.")
 else: 
     print("Sorry you have to grow taller before you can ride")
